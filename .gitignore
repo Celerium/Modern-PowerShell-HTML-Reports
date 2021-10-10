@@ -1,11 +1,5 @@
-#Ignoring all Development folders (Literal Paths)
-# X/ = Ignore any folder named X
-# X/** = Dont ignore the parent folder but ignore all sub files\folders
-
 #Home
-!/_Development/
-*/_Development/**
-*/*/_Development/**
+_Development/
 
 # Packages #
 ############
