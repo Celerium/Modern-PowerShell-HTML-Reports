@@ -252,7 +252,7 @@ param(
                                                     $MainEnd $DivEnd $DivEnd $JavaScriptEnd
                                                 "
         $HTML = $HTML -replace '<body>','<body class="sb-nav-fixed">'
-        $HTML | Out-File $HTMLReport -Encoding utf8
+        $HTML | Out-File $HTMLReport
 
     }
 }
