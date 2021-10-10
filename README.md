@@ -31,3 +31,5 @@ As of 2021-10, this proof of concept gathers the PowerShell version installed on
 -Command ``` .\Get-PSVersion-MultiTable.ps1 -Report All -ShowReport ```
 
 <img src="https://celerium.org/wp-content/uploads/2021/10/Celerium-HTMLCSSJS-Example.png">
+
+`
