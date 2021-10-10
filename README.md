@@ -31,8 +31,3 @@ As of 2021-10, this proof of concept gathers the PowerShell version installed on
 -Command ``` .\Get-PSVersion-MultiTable.ps1 -Report All -ShowReport ```
 
 <img src="https://celerium.org/wp-content/uploads/2021/10/Celerium-HTMLCSSJS-Example.png">
-
-## Oddity:
-When the commands above are run from PowerShell 5 vs PowerShell 7 the HTML file size is larger when run from PowerShell 5. In my testing when run from PowerShell 7 the size was half the size even though the HTML file contents were identical.
-
-No idea why
