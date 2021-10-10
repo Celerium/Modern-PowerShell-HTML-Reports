@@ -1,0 +1,45 @@
+<!--Meta-->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Celerium Report Viewer">
+    <meta name="author" content="Celerium">
+    <meta name="robots" content="noindex,nofollow">
+    <meta property="og:image" content="https://bit.ly/2YISbHg">
+    <meta property="og:title" content="Celerium Audit Report">
+    <meta property="og:description" content="Celerium audits cover a wide range of
+    areas including software applications, web services, security systems, operating systems and client-server networks.">
+    <title>xTITLECHANGEx</title>
+<!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="https://bit.ly/3mAWi0d"/>
+<!--External CSS Resources-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.2/css/dataTables.bootstrap5.min.css"/>
+<!--External JS Resources-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.11.2/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.11.2/js/dataTables.bootstrap5.min.js"></script>
+<!--DataTables Customization-->
+    <script type="text/javascript" class="init">
+        $(document).ready(function() {
+            $('.dataTable-table').DataTable( {
+                dom: 'lftip',
+                perPage: 5 ,
+                lengthMenu: [ [5, 10, 25, -1], [5, 10, 25, "All"] ],
+                "pagingType": "first_last_numbers",
+                "scrollX": true,
+                language: {
+            paginate: {
+                first:    '<<',
+                last:     '>>'
+            }
+        },
+        "oLanguage": {
+            sInfo: "Showing _START_ to _END_ of _TOTAL_ entries",
+            sLengthMenu: "_MENU_ entries per page",
+            sSearch: "",
+            sSearchPlaceholder: "Search...",
+            }
+            } );
+        } );
+    </script>
